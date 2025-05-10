@@ -257,7 +257,7 @@ public abstract class SpecimenCycleAutoBase extends AutoBase {
         }
         sampleDropPathChain.setCallbacks(
                 new PathCallback(temp, () -> {
-                    //robot.intake.bucketDump();
+//                    robot.intake.bucketDump();
                 }, PathCallback.PARAMETRIC, 0)
         );
 

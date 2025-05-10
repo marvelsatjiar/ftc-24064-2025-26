@@ -55,7 +55,7 @@ public class FollowPathAction implements Action {
             started = true;
         }
 
-        //m_follower.update();
+        m_follower.update();
         Drawing.drawDebug(m_follower, packet);
 
         return m_follower.isBusy();

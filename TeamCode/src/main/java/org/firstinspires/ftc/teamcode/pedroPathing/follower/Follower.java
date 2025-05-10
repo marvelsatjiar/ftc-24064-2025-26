@@ -334,6 +334,10 @@ public class Follower {
         poseUpdater.setHeadingOffset(headingOffset);
     }
 
+    public void setCurrentHeading(double heading) {
+        poseUpdater.setHeadingOffset(heading - getPose().getHeading());
+    }
+
     /**
      * This returns the x offset.
      *
